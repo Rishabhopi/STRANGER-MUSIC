@@ -3,7 +3,19 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from SHUKLAMUSIC import app
 from config import BOT_USERNAME
 
-start_txt = """❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ZAIN XD ♡゙, ʙᴏᴛ ʀᴇᴘᴏ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ZAIN ♡゙ MUSIC"""
+start_txt = """❖ ʜᴇʏ , ᴛʜᴇʀᴇ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ  ♥︎
+
+➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ 
+ ➲ ɴᴏ ɪssᴜᴇ ✰
+ 
+ ➲ ɴᴏ ʙᴀɴ ɪssᴜᴇ ✰
+ 
+ ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
+ 
+ ➲ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
+ 
+ ► Iғ ʏᴏᴜ ᴡᴀɴᴛ ʀᴇᴘᴏ ᴛʜᴀɴ ᴅᴍ ᴍʏ ᴏᴡɴᴇʀ"""
 
 
 
@@ -13,7 +25,7 @@ async def start(_, msg):
     buttons = [
         [
           InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/NenoBots"),
-          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/Rishu1286")
+          InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Rishu1286")
           ],
     ]
 
