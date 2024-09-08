@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID","14050586"))
 API_HASH = getenv("API_HASH","42a60d9c657b106370c79bb0a8ac560c")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","7462210817:AAEL_zz_Qx_mmCaFNMOTYwRwZ89b7duW9Ag")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Rishu1286")
 # --------------------------------------------------------
@@ -23,7 +23,7 @@ BOT_NAME = getenv("BOT_NAME" , "SAPNA")
 ASSUSERNAME = getenv("ASSUSERNAME" , "KHWAAISH_HOON")
 # ---------------------------------------------------------
 
-STRING_SESSION = getenv("STRING_SESSION","")
+STRING_SESSION = getenv("STRING_SESSION","BQGvBw8Apc-n_G8zQDlu5akPhY4A5Q49qzRngOEk7QrHNp97RNsBz3WpvabftW5ML6e53al9hBa6mqMSn4l6niLuPJh60xqghnGcJ2Np0l20UQRN9TKz3xf6GX1oJcY3et1S4gAGvLb3pJs2N-7pShVTZiVQsXcZ2ZrcUlGNOg_jkcvbB-VhTDmn8PVRvLgugJuOBACzBlR7bBDSIyZdulbM07FnxpiFTEN--L8V4qD2YfuvU6UH0JqMxIcXt4UGEbg_3oICK2tMcokmSQv_qRFJ-j5iSkyhHVxoqGhaFY5Bn2LDIkaNAEds5DhyhG6FKN6ySkAbkF2dnk1eQZxOpsSn-ylxpQAAAAG7MRXIAA")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
