@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "KHWAAISH_HOON")
 STRING_SESSION = getenv("STRING_SESSION","")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,12 +35,12 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002035056517))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002087870550))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 5738579437))
 
-OWNER2_ID = int(getenv("OWNER_ID", 5738579437))
+OWNER2_ID = int(getenv("OWNER_ID", 6632677860))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
